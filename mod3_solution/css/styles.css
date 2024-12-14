@@ -17,11 +17,7 @@ body{
 	font-size: 40px;
 	
 }
-#navbarNav{
-	text-align: center;
-	width: 100%;
 
-}
 .nav-item > a{
 	color: white;
 	width: 100%;
@@ -29,8 +25,9 @@ body{
   	font-weight: 500;
   	font-style: normal;
   	background-color: #FDA403;
-	border: #921A40 solid 1px;
+	border-bottom: #921A40 solid 2px;
 	font-size: 20px;
+	border-radius: 0 0 10px 10px;
 }
 #Menu{
 	color: #ffff;
@@ -52,6 +49,7 @@ body{
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
+  padding: 10px;
 }
 .tiles > p:nth-child(1){
 	font-size: 40px;
@@ -59,4 +57,14 @@ body{
   font-optical-sizing: auto;
   font-weight: 800;
   font-style: normal;
+}
+@media (max-width: 576px){
+	#Menu{
+	margin-top: 10px;
+	font-size: 7vw;
+	}
+	.tiles > p:nth-child(1){
+	font-size: 5vw;
+	}
+
 }
